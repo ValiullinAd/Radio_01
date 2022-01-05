@@ -60,8 +60,6 @@ public class Radio {
     public void previousVolume() {
         if (currentVolume > 1) {
             currentVolume -= 1;
-        } /*else {
-            return;
-        }*/
+        }
     }
 }
